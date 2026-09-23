@@ -1,0 +1,10 @@
+Package: hotvideo-downloader
+Version: 1.0.0
+Architecture: all
+Maintainer: Iksan Ramadhan <rumasoreng757@gmail.com>
+Depends: bash, yt-dlp, aria2, python, ffmpeg
+Section: utils
+Priority: optional
+Homepage: https://github.com/iksan757/Hot-Video-Downloader
+Description: Fast video downloader that extracts direct stream links with custom quality and high-speed DNS
+
