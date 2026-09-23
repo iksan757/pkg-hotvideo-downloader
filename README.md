@@ -29,5 +29,4 @@ hotvideo "[https://example.com](https://example.com)" -r 720p -d
 hotvideo -i
 ```
 
-## 📜 License
-Developed by **Iksan Ramadhan <rumasoreng757@gmail.com>**. Licensed under the [MIT License](LICENSE).
+
