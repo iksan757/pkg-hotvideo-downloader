@@ -51,6 +51,7 @@ Custom resolution option (240p / 360p / 480p / 720p / 1080p)
 
 Use fast Cloudflare DNS connection (1.1.1.1)
    hotvideo "[https://example.com/video](https://example.com/video)" -r 1080p -d
+
 Interactive mode (Terminal menu)
    hotvideo -i
 ```
