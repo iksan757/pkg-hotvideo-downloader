@@ -25,7 +25,7 @@ echo "deb [trusted=yes] [https://raw.githubusercontent.com/iksan757/pkg-hotvideo
 ```
 🐧 2. Debian / Ubuntu / Kali Linux / Mint
 ```
-curl -LO [https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/hotvideo-downloader_1.0.0_all.deb](https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/hotvideo-downloader_1.0.0_all.deb) && sudo apt update && sudo apt install -y ./hotvideo-downloader_1.0.0_all.deb && rm hotvideo-downloader_1.0.0_aarch64.deb
+curl -LO [https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/hotvideo-downloader_1.0.0_all.deb](https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/hotvideo-downloader_1.0.0_all.deb) && sudo apt update && sudo apt install -y ./hotvideo-downloader_1.0.0_all.deb && rm hotvideo-downloader_1.0.0_all.deb
 
 ```
 🏹 3. Arch Linux / Manjaro
@@ -59,13 +59,13 @@ Interactive mode (Terminal menu)
 
 ## 🛠️Full Command Options
 
-| Flag / Opsi | Keterangan | Contoh |
+| Flag / Option | Description | Example |
 | --- | --- | --- |
-| **URL** | Tautan video yang ingin di-download | `hotvideo "https://..."` |
-| **-r, --resolution** | Pilih kualitas video (240p, 360p, 480p, 720p, 1080p) | `hotvideo -r 720p` |
-| **-d, --dns** | Aktifkan Cloudflare DNS (1.1.1.1) | `hotvideo -d` |
-| **-i, --interactive** | Buka menu tampilan interaktif | `hotvideo -i` |
-| **-h, --help** | Tampilkan menu bantuan | `hotvideo -h` |
+| **URL** | Link to the video to be downloaded | `hotvideo "https://..."` |
+| **-r, --resolution** | Select video quality (240p, 360p, 480p, 720p, 1080p) | `hotvideo -r 720p` |
+| **-d, --dns** | Enable Cloudflare DNS (1.1.1.1) | `hotvideo -d` |
+| **-i, --interactive** | Open the interactive menu | `hotvideo -i` |
+| **-h, --help** | Show the help menu | `hotvideo -h` |
 
 ---
 
