@@ -25,13 +25,13 @@ echo "deb [trusted=yes] [https://raw.githubusercontent.com/iksan757/pkg-hotvideo
 ```
 🐧 2. Debian / Ubuntu / Kali Linux / Mint
 ```
-git clone
-https://github.com/iksan757/pkg-hotvideo-downloader.git  && sudo apt update && sudo apt install -y ./hotvideo-downloader_1.0.0_all.deb
+curl -LO [https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/hotvideo-downloader_1.0.0_all.deb](https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/hotvideo-downloader_1.0.0_all.deb) && sudo apt update && sudo apt install -y ./hotvideo-downloader_1.0.0_all.deb && rm hotvideo-downloader_1.0.0_aarch64.deb
+
 ```
 🏹 3. Arch Linux / Manjaro
 ```
-sudo pacman -S --needed --noconfirm git python python-yt-dlp aria2 ffmpeg && git clone
-https://github.com/iksan757/pkg-hotvideo-downloader.git && sudo cp pkg-hotvideo-downloader/bin/* /usr/local/bin/ && sudo chmod +x /usr/local/bin/hotvideo
+sudo pacman -S --needed --noconfirm yt-dlp aria2 python ffmpeg curl && sudo curl -Lo /usr/local/bin/hotvideo [https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/bin/hotvideo](https://raw.githubusercontent.com/iksan757/pkg-hotvideo-downloader/main/bin/hotvideo) && sudo chmod +x /usr/local/bin/hotvideo
+
 ```
 🪟 4. Windows (via WSL / Ubuntu / Git Bash)
 ```
