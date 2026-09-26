@@ -39,7 +39,7 @@ sudo apt update && sudo apt install -y python python-yt-dlp yt-dlp-ejs  ffmpeg a
 ```
 ---
 
-##📖 Usage
+## 📖 Usage
 
 Once installation is complete, you can immediately run the `hotvideo` command:
 ```
