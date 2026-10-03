@@ -2,6 +2,8 @@
 
 Fast and simple video downloader tool written in Rust forfetching media links directly from the CLI
 ---
+<img width="1080" height="1269" alt="1001359825" src="https://github.com/user-attachments/assets/f411e0b7-63a4-45ce-a16a-1586f4aad3f5" />
+
 ## EXAMPLE 
 - Create rename
 ```
