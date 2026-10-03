@@ -1,4 +1,4 @@
-# RUVIDEO V19.2.0
+# RUVIDEO
 
 Fast and simple video downloader tool written in Rust forfetching media links directly from the CLI
 ---
